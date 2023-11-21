@@ -185,3 +185,55 @@ img {
 .left {
     position: fixed;
 }
+
+.p1 {
+    background-image: linear-gradient(transparent 0%, transparent 90%, white 90%, white 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 300ms;
+}
+
+.p1:hover {
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+.p2 {
+    background-image: linear-gradient(transparent 0%, transparent 90%, white 90%, white 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 300ms;
+}
+
+.p2:hover {
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+.p3 {
+    background-image: linear-gradient(transparent 0%, transparent 90%, white 90%, white 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 300ms;
+}
+
+.p3:hover {
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+.p4 {
+    background-image: linear-gradient(transparent 0%, transparent 90%, white 90%, white 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 300ms;
+}
+
+.p4:hover {
+    background-size: 100% 100%;
+    background-position-x: left;
+}
