@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "titre": "Langages :",
+        "comp1": "HTML & CSS",
+        "comp2": "Javascript/Typescript & w2ui",
+        "comp3": "Angular & Node.js",
+        "comp4": "PHP & SQL"
+    },
+    {
+        "id": 2,
+        "titre": "Informatique :",
+        "comp1": "VS Code, PhpMyAdmin, MobaXtrem",
+        "comp2": "VirtualBox, GLPI, Windows Server",
+        "comp3": "Discord, GitLab",
+        "comp4": "Montage PC, Canva, Kanboard"
+    },
+    {
+        "id": 3,
+        "titre": "Humain :",
+        "comp1": "Sociable",
+        "comp2": "Ouvert d'esprit",
+        "comp3": "Réfléchi",
+        "comp4": ""
+    }
+]

@@ -1,0 +1,141 @@
+body {
+    background-color: black;
+    font-family: Arial;
+    min-height: 100vh;
+    margin: 0;
+    overflow-y: scroll;
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    background: transparent;
+    width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 5em;
+}
+
+header {
+    height: 10vh;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+}
+
+h1 {
+    position: inherit;
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: fixed;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    position: absolute;
+    right: 0;
+    width: 600px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    position: fixed;
+}
+
+.my-link1 {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+  
+.my-link1:hover {
+    text-decoration: none;
+}
+
+.moi {
+    position: absolute;
+    bottom: 50%;
+    width: 100px;
+    padding: 1px;
+    transform: translateX(-45%);
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease, visibility 0.2s ease;
+    font-size: 15px;
+}
+
+.my-link1:hover .moi {
+    opacity: 1;
+    visibility: visible;
+}
+
+.my-link1:not(:hover) .moi {
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.my-link1:visited {
+    text-decoration: none;
+}
+
+.prezMoi {
+    color: white;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.sioDesc {
+    font-size: 25px;
+    max-width: 100%;
+    padding-left: 15vh;
+    padding-right: 15vh;
+}
+
+.titreSisr {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.sisr {
+    max-width: 40%;
+    font-size: 20px;
+}
+
+.titreSlam {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.slam {
+    max-width: 40%;
+    font-size: 20px;
+}
+
+.opt {
+    display: flex;
+    justify-content: space-around;
+}

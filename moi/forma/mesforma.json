@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "date": "Depuis Septembre 2022",
+        "titre": "ESNA de Bretagne | Laboratoire Numérique Ceclant",
+        "statut": "Alternance",
+        "desc": "BTS SIO : SLAM | Développement et conception d'application et de sites web pour la Marine Nationale"
+    },
+    {
+        "id": 2,
+        "date": "Novembre 2022",
+        "titre": "Formation Javascript",
+        "statut": "Personnelle",
+        "desc": "Formation non diplômante en Javascript par OpenClassroom"
+    },
+    {
+        "id": 3,
+        "date": "2019-2022",
+        "titre": "La Croix Rouge Brest",
+        "statut": "Lycée",
+        "desc": "Bac Pro Systèmes Numériques (SSIHT) : Sûreté et Sécurité des Infrastructures de l'Habitat et du Tertiaire"
+    }
+]

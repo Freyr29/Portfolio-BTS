@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "date": "Depuis Septembre 2022",
+        "titre": "Laboratoire Numérique Ceclant",
+        "statut": "Alternance",
+        "desc": "Développement et conception d'application et de sites web pour la Marine Nationale"
+    },
+    {
+        "id": 2,
+        "date": "Avril 2022",
+        "titre": "Laboratoire Numérique Ceclant",
+        "statut": "Stage",
+        "desc": "Développement et conception d'application et de sites web pour la Marine Nationale"
+    },
+    {
+        "id": 3,
+        "date": "Décembre 2021",
+        "titre": "Service Informatique Ceclant",
+        "statut": "Stage",
+        "desc": "Installation de matériel (bureautique, réseau...), dépannages et brassage de prises"
+    },
+    {
+        "id": 4,
+        "date": "Novembre 2020 et Juin 2021",
+        "titre": "Constructel",
+        "statut": "2 Stages",
+        "desc": "Installation de fibre optique et dépannages réseaux"
+    },
+    {
+        "id": 5,
+        "date": "Décembre 2019",
+        "titre": "Iroise Micro Informatique",
+        "statut": "Stage",
+        "desc": "Dépannage et maintenance informatique"
+    }
+]

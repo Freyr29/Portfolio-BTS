@@ -1,0 +1,311 @@
+body {
+    background-color: black;
+    font-family: Arial;
+    min-height: 160vh;
+    margin: 0;
+    overflow-y: scroll;
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    background: transparent;
+    width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 5em;
+}
+
+header {
+    height: 10vh;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    position: fixed;
+}
+
+h1 {
+    position: inherit;
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    margin-left: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: fixed;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    margin: 0;
+    margin-top: 36vh;
+    font-weight: 600;
+}
+
+.ht {
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.prezMoi {
+    color: white;
+    margin-left: 50px;
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+.menu {
+    position: absolute;
+    right: 0;
+    width: 600px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    position: fixed;
+}
+
+.my-link1 {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+  
+.my-link1:hover {
+    text-decoration: none;
+}
+
+.moi {
+    position: absolute;
+    bottom: 50%;
+    width: 100px;
+    padding: 1px;
+    transform: translateX(-45%);
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease, visibility 0.2s ease;
+    font-size: 15px;
+}
+
+.my-link1:hover .moi {
+    opacity: 1;
+    visibility: visible;
+}
+
+.my-link1:not(:hover) .moi {
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.my-link1:visited {
+    text-decoration: none;
+}
+
+.left {
+    position: fixed;
+    width: 39%;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    display: flex;
+    width: 60%;
+    margin-top: 20vh;
+    min-height: 1000px;
+}
+
+.exp {
+    width: 380px;
+    height: 100;
+    padding-bottom: 50px;
+    border-start-start-radius: 3em;
+    border-end-start-radius: 3em;
+    border: 1px solid rgba(255, 255, 255, 0.297);
+    border-right: none;
+    background-color: rgba(255, 255, 255, 0.127);
+    margin-top: 48px;
+    margin-bottom: 50px;
+}
+
+.skill {
+    width: 380px;
+    height: 100;
+    border-radius: 3em;
+    border: 1px solid rgba(255, 255, 255, 0.297);
+    background-color: rgba(255, 255, 255, 0.211);
+}
+
+.forma {
+    width: 380px;
+    height: 100;
+    padding-bottom: 50px;
+    border-end-end-radius: 3em;
+    border-start-end-radius: 3em;
+    border: 1px solid rgba(255, 255, 255, 0.297);
+    border-left: none;
+    background-color: rgba(255, 255, 255, 0.127);
+    margin-top: 48px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.titre2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.titre3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    font-size: 25px;
+}
+
+.dtitle {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.mesexp article h3 {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 15px;
+}
+
+.mesexp article h4 {
+    margin: 0px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.mesexp article h5 {
+    margin: 0px;
+    font-size: 19px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.mesexp article h6 {
+    margin: 0px;
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 100;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+hr{
+    width: 85%;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.messkill article h4 {
+    margin: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.messkill article h6 {
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 100;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.mesinteret article h4 {
+    margin: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.mesinteret article h6 {
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 100;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.mesforma article h3 {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 15px;
+}
+
+.mesforma article h4 {
+    margin: 0px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.mesforma article h5 {
+    margin: 0px;
+    font-size: 19px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.mesforma article h6 {
+    margin: 0px;
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 100;
+    padding-right: 15px;
+    padding-left: 15px;
+}

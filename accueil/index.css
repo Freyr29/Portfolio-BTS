@@ -1,0 +1,131 @@
+body {
+    background-color: black; 
+    font-family: Arial;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+header {
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    position: inherit;
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+.button {
+    width: 260px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 19px;
+}
+  
+.button-1 {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #ffffff;
+    transition: .3s;
+}
+
+.button-1:hover {
+    color: black;
+    transition: .3s;
+}
+
+.button-1::before, .button-1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    transition: transform 0.5s;
+    z-index: -1;
+}
+
+.button-1::before {
+    transform: translateX(0);
+}
+
+.button-1::after {
+    transform: translateX(-100%);
+}
+
+.button-1:hover::before {
+    transform: translateX(100%);
+}
+
+.button-1:hover::after { 
+    transform: translateX(0);
+}
+
+.no {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+}
+
+.my-link1 {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+  
+.my-link1:hover {
+    text-decoration: none;
+}
+
+.moi {
+    position: absolute;
+    bottom: 50%;
+    width: 100px;
+    padding: 1px;
+    font-size: 18px;
+    transform: translateX(-40%);
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease, visibility 0.2s ease;
+}
+
+.my-link1:hover .moi {
+    opacity: 1;
+    visibility: visible;
+}
+
+.my-link1:not(:hover) .moi {
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+
+.my-link1:visited {
+    text-decoration: none;
+}
