@@ -25,6 +25,7 @@ header {
     align-items: center;
     background-color: black;
     position: fixed;
+    z-index: 1000;
 }
 
 h1 {
@@ -70,7 +71,7 @@ h2 {
 .menu {
     position: absolute;
     right: 0;
-    width: 600px;
+    width: 800px;
     margin-right: 60px;
     display: flex;
     justify-content: space-between;
@@ -196,6 +197,14 @@ h2 {
     font-size: 25px;
 }
 
+.titre4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    font-size: 25px;
+}
+
 .dtitle {
     display: flex;
     justify-content: center;
@@ -302,6 +311,23 @@ hr{
 }
 
 .mesforma article h6 {
+    margin: 0px;
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 100;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.monprojet article h4 {
+    margin: 0px;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 100;
+    padding-left: 15px;
+}
+
+.monprojet article h6 {
     margin: 0px;
     margin-top: 12px;
     font-size: 20px;

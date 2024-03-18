@@ -25,6 +25,7 @@ header {
     align-items: center;
     background-color: black;
     position: fixed;
+    z-index: 1000;
 }
 
 h1 {
@@ -112,7 +113,7 @@ a {
 .menu {
     position: absolute;
     right: 0;
-    width: 600px;
+    width: 800px;
     margin-right: 60px;
     display: flex;
     justify-content: space-between;
