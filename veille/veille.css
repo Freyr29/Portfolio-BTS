@@ -162,3 +162,25 @@ a {
     background-size: 100% 100%;
     background-position-x: left;
 }
+
+.prezMoi {
+    color: white;
+    padding-left: 50px;
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+.ht {
+    margin-left: 80px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.lien {
+    display: flex;
+}
+
+.no {
+    text-decoration: none;
+    color: white;
+}
