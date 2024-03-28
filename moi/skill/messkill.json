@@ -12,14 +12,14 @@
         "titre": "Informatique :",
         "comp1": "VS Code, PhpMyAdmin, MobaXtrem",
         "comp2": "VirtualBox, GLPI, Windows Server",
-        "comp3": "Discord, GitLab",
+        "comp3": "Discord, Github",
         "comp4": "Montage PC, Canva, Kanboard"
     },
     {
         "id": 3,
-        "titre": "Humain :",
+        "titre": "Softskills :",
         "comp1": "Sociable",
-        "comp2": "Ouvert d'esprit",
+        "comp2": "Impliqué",
         "comp3": "Réfléchi",
         "comp4": ""
     }
